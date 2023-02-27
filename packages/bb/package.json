@@ -1,0 +1,32 @@
+{
+  "name": "@hs/bb",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "tanka",
+  "homepage": "https://github.com/Tankas/mono-pnpm-changesets#readme",
+  "license": "ISC",
+  "main": "lib/bb.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tankas/mono-pnpm-changesets.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@hs/bb.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Tankas/mono-pnpm-changesets/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
