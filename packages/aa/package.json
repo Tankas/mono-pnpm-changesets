@@ -27,8 +27,9 @@
     "url": "https://github.com/Tankas/mono-pnpm-changesets/issues"
   },
   "dependencies": {
-    "@hs/bb": "workspace:^0.0.1",
+    "@hs/bb": "^0.0.0",
     "date": "^2.0.2",
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "d33dcd736844320228100da19f3fcdb965231775"
 }
