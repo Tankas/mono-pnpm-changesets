@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
   "devDependencies": {
     "lerna": "^6.4.1"
   }
