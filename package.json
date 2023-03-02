@@ -8,6 +8,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
+    "father": "^4.1.6",
     "lerna": "^6.4.1"
   }
 }

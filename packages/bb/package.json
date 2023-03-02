@@ -5,7 +5,8 @@
   "author": "tanka",
   "homepage": "https://github.com/Tankas/mono-pnpm-changesets#readme",
   "license": "ISC",
-  "main": "lib/bb.js",
+  "main": "dist/cjs/aa.js",
+  "module": "dist/esm/aa.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +22,9 @@
     "url": "git+https://github.com/Tankas/mono-pnpm-changesets.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@hs/bb.test.js"
+    "test": "node ./__tests__/@hs/bb.test.js",
+    "build": "father build",
+    "prepublishOnly": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/Tankas/mono-pnpm-changesets/issues"

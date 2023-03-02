@@ -8,22 +8,11 @@
  */
 'use strict';
 
-const bb = require('@hs/bb');
-
-
-const ans = bb();
-
-console.log('ans', ans)
-
-const aa = () => {
-    return 'ss'
-}
-
+var bb = require('@hs/bb');
+var ans = bb();
+console.log('ans', ans);
+var aa = function aa() {
+  return 'ss';
+};
 module.exports = aa;
-
-
-
-
-const es6Test = new Promise(() => {
-    
-})
+var es6Test = new Promise(function () {});
