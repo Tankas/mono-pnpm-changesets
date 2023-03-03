@@ -7,6 +7,9 @@
   "license": "ISC",
   "main": "dist/cjs/aa.js",
   "module": "dist/esm/aa.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "directories": {
     "lib": "lib",
     "test": "__tests__"
