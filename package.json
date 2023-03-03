@@ -5,10 +5,14 @@
     "packages/*"
   ],
   "scripts": {
+    "dumi": "cross-env APP_ROOT=dumi dumi dev",
     "preinstall": "npx only-allow pnpm",
-    "release": "sh scripts/release.sh"
+    "release": "sh scripts/release.sh",
+    "test": "dumi dev"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dumi": "^2.1.14",
     "father": "^4.1.6",
     "lerna": "^6.4.1",
     "react": "^18.2.0",

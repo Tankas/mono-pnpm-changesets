@@ -26,12 +26,12 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// lib/bb.jsx
-var bb_exports = {};
-__export(bb_exports, {
-  default: () => bb_default
+// lib/index.tsx
+var lib_exports = {};
+__export(lib_exports, {
+  default: () => lib_default
 });
-module.exports = __toCommonJS(bb_exports);
+module.exports = __toCommonJS(lib_exports);
 var import_react = __toESM(require("react"));
 var Hs = class extends import_react.Component {
   constructor(props) {
@@ -42,9 +42,9 @@ var Hs = class extends import_react.Component {
     console.log("click");
   }
   render() {
-    return /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("button", { onClick: this.handleClick }, "点击"));
+    return /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("button", { onClick: this.handleClick }, "点击22"));
   }
 };
-var bb_default = Hs;
+var lib_default = Hs;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {});

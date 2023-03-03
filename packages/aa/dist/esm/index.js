@@ -13,25 +13,25 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 /*
  * @Author: tanka 
- * @Date: 2023-02-27 16:55:30
+ * @Date: 2023-02-27 16:54:36
  * @LastEditors: tanka 
- * @LastEditTime: 2023-03-03 10:22:53
- * @FilePath: /mono-pnpm-changesets/packages/bb/lib/bb.js
+ * @LastEditTime: 2023-03-03 17:27:53
+ * @FilePath: /mono-pnpm-changesets/packages/aa/lib/aa.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 import React, { Component } from 'react';
 import { jsx as _jsx } from "react/jsx-runtime";
-var Hs = /*#__PURE__*/function (_Component) {
-  _inherits(Hs, _Component);
-  var _super = _createSuper(Hs);
-  function Hs(props) {
+var HsAA = /*#__PURE__*/function (_Component) {
+  _inherits(HsAA, _Component);
+  var _super = _createSuper(HsAA);
+  function HsAA(props) {
     var _this;
-    _classCallCheck(this, Hs);
+    _classCallCheck(this, HsAA);
     _this = _super.call(this, props);
     console.log('hs');
     return _this;
   }
-  _createClass(Hs, [{
+  _createClass(HsAA, [{
     key: "handleClick",
     value: function handleClick() {
       console.log('click');
@@ -42,11 +42,11 @@ var Hs = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/_jsx("div", {
         children: /*#__PURE__*/_jsx("button", {
           onClick: this.handleClick,
-          children: "\u70B9\u51FB"
+          children: "1231"
         })
       });
     }
   }]);
-  return Hs;
+  return HsAA;
 }(Component);
-export default Hs;
+export default HsAA;
