@@ -1,6 +1,6 @@
 {
   "name": "@hs/aa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "> TODO: description",
   "author": "tanka",
   "homepage": "https://github.com/Tankas/mono-pnpm-changesets#readme",
@@ -31,7 +31,7 @@
     "url": "https://github.com/Tankas/mono-pnpm-changesets/issues"
   },
   "dependencies": {
-    "@hs/bb": "workspace:^0.1.0",
+    "@hs/bb": "workspace:^0.1.1",
     "date": "^2.0.2",
     "lodash": "^4.17.21"
   },
