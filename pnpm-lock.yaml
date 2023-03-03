@@ -18,7 +18,7 @@ importers:
 
   packages/aa:
     specifiers:
-      '@hs/bb': workspace:^0.1.1
+      '@hs/bb': workspace:^0.1.2
       date: ^2.0.2
       lodash: ^4.17.21
     dependencies:
