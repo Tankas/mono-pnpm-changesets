@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "release": "sh scripts/release.sh",
     "buildAll": "pnpm build --filter './packages/**' "
   },
   "devDependencies": {
