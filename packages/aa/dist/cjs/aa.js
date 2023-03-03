@@ -27,7 +27,7 @@ var bb = require("@hs/bb");
 var ans = bb();
 console.log("ans", ans);
 var aa = () => {
-  return "ss";
+  return "ss11";
 };
 var es6Test = new Promise(() => {
 });
